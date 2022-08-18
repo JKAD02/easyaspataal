@@ -25,7 +25,7 @@ const NumberInput = () => {
 
     setLoading(true)
 
-    axios.post("https://fintech-backend-staging.easyaspataal.com/api/phone_numbers/send_otp",{
+    axios.post("http://fintech-backend-staging.easyaspataal.com/api/phone_numbers/send_otp",{
       phoneNumber
     }).then((data)=>{
 
