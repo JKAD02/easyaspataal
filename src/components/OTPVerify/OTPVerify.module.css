@@ -42,11 +42,30 @@ button{
     width: 30%;
 }
 
+
 .loading{
     font-size: 1rem;
     letter-spacing: 0.3rem;
     font-weight: 500;
 }
+
+.inputDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 25px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid #DBD3F5;
+    border-right-color: #4D24CD;
+    animation: s2 1s infinite linear;
+    margin: auto;
+}
+@keyframes s2 {to{transform: rotate(1turn)}}
 
 @media only screen and (max-width: 600px) {
     .main_Div{
@@ -56,3 +75,4 @@ button{
     font-size: 1rem;
    }
 }
+

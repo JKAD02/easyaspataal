@@ -22,7 +22,7 @@ h1{
     color: rgb(42, 38, 38);
 }
 .divTag{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: rgb(70, 68, 68);
     margin-bottom: 1rem;
 }
@@ -50,8 +50,21 @@ button{
     letter-spacing: 0.3rem;
     font-weight: 500;
 }
+.spinner {
+    width: 25px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid #DBD3F5;
+    border-right-color: #4D24CD;
+    animation: s2 1s infinite linear;
+    margin: auto;
+}
+@keyframes s2 {to{transform: rotate(1turn)}}
 
 @media only screen and (max-width: 600px) {
+    h1{
+        font-size: 1.1rem;
+    }
      .main_Div{
       width: 90%;
     }
