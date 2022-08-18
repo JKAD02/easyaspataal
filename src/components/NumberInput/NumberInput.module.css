@@ -50,3 +50,9 @@ button{
     letter-spacing: 0.3rem;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+     .main_Div{
+      width: 90%;
+    }
+}

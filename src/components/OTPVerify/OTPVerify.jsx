@@ -22,7 +22,7 @@ const OTPVerify = () => {
     e.preventDefault()
     setIsVerfiy(true)
 
-    axios.post("http://fintech-backend-staging.easyaspataal.com/api/phone_numbers/verify_otp",{
+    axios.post("https://fintech-backend-staging.easyaspataal.com/api/phone_numbers/verify_otp",{
         phoneNumber: phoneNumber,
         otp: otpNumber
     }).then((res)=>{
