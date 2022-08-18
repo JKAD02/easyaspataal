@@ -47,11 +47,15 @@ const OTPVerify = () => {
           <input disabled={message.status} type="number" name="Number" placeholder='Enter OTP' onChange={getOtp} />
           {/* <input type="submit" value="Verify OTP" /> */}
        </form>
-       <button  onClick={()=>{
+       {message.status?<button  onClick={()=>{
            navigator("/home")
        }}>
-        {message.status?"Home":"Resend Code"}
-       </button>
+        Home
+       </button>:<button  onClick={()=>{
+           navigator("/")
+       }}>
+        Resend Code
+       </button>}
        {isVerfiy && <div className={styles.loading}>...verifying Your OTP</div>}
     </div>
   )
