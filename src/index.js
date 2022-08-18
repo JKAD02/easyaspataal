@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { NumberContextProvider } from './Context/NumberContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <NumberContextProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    </NumberContextProvider>
   </React.StrictMode>
 );
 

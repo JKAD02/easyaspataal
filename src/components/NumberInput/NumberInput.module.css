@@ -1,0 +1,52 @@
+.main_Div{
+    width: 40%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.green{
+    font-size: 1rem;
+    color: rgb(31, 156, 31);
+    font-weight: 500;
+}
+
+.red{
+    font-size: 1rem;
+    color: #EA4848;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.3rem;
+    padding: 0.8rem 3rem;
+    color: rgb(42, 38, 38);
+}
+.divTag{
+    font-size: 1rem;
+    color: rgb(70, 68, 68);
+    margin-bottom: 1rem;
+}
+
+input,button{
+   background-color: transparent;
+   border: 1px solid rgb(190, 187, 187);
+   outline: none;
+   width: 60%;
+   border-radius: 0.4rem;
+   padding: 10px;
+   text-align: center;
+   /* margin: 1.5rem 0; */
+   font-weight: 600;
+   letter-spacing: 0.1rem;
+}
+
+button{
+    width: 30%;
+    cursor: pointer;
+}
+
+.loading{
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+}
